@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/quantum-ocean.svg" width="100%" alt="Gusuhanfeng — Quantum Ocean Lab" />
+<img src="./assets/quantum-ocean-v2.svg" width="100%" alt="Gusuhanfeng — Quantum Ocean Lab" />
 
 ### Hey, I'm Gusuhanfeng 👋
 
