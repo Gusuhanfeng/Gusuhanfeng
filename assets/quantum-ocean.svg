@@ -26,6 +26,7 @@
     </filter>
     <clipPath id="frame"><rect width="1200" height="460" rx="30"/></clipPath>
     <style>
+      @font-face{font-family:Caveat;src:url('Caveat-subset.ttf') format('truetype');font-weight:700;font-display:swap}
       .chase{animation:chase 4.8s ease-in-out infinite}.bob{animation:bob 1.8s ease-in-out infinite}.jelly{animation:jelly 2.2s ease-in-out infinite}.sword{animation:sword 5s ease-in-out infinite}.bottle{animation:bottle 3s ease-in-out infinite}.dash{animation:dash 7s linear infinite}
       @keyframes chase{0%,100%{transform:translate(-8px,4px)}50%{transform:translate(13px,-5px)}}
       @keyframes bob{0%,100%{transform:translateY(3px) rotate(-2deg)}50%{transform:translateY(-7px) rotate(2deg)}}
@@ -86,8 +87,8 @@
     <path d="M318 84h34m-34 0v34M882 84h-34m34 0v34M318 314h34m-34 0v-34M882 314h-34m34 0v-34" fill="none" stroke="#70F7E1" stroke-width="2" opacity=".75"/>
 
     <text x="600" y="112" text-anchor="middle" fill="#8AFBEA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="6">QUANTUM OCEAN LAB</text>
-    <text x="600" y="182" text-anchor="middle" fill="#F5FDFF" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="57" font-weight="800" letter-spacing="1">GUSUHANFENG</text>
-    <rect x="405" y="204" width="390" height="1" fill="url(#neon)" filter="url(#glow)"/>
+    <text x="600" y="187" text-anchor="middle" fill="#F5FDFF" stroke="#8AFBEA" stroke-width=".35" paint-order="stroke" font-family="Caveat, 'Segoe Print', cursive" font-size="74" font-weight="700" filter="url(#glow)">Gusuhanfeng</text>
+    <path d="M430 204q165 13 340-4" fill="none" stroke="url(#neon)" stroke-width="2" stroke-linecap="round" filter="url(#glow)"/>
     <text x="600" y="244" text-anchor="middle" fill="#C7EAF2" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" letter-spacing="1">AI FOR SCIENCE · CURIOUS BY DEFAULT</text>
 
     <g transform="translate(452 269)">
