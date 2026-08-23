@@ -4,7 +4,7 @@
 
 <br />
 
-<img src="./assets/identity-console.svg" width="90%" alt="Animated identity console" />
+<img src="./assets/identity-console-v2.svg" width="90%" alt="Animated identity console" />
 
 ### Hey, I'm Gusuhanfeng 👋
 
@@ -47,41 +47,13 @@ I care about more than whether a model works. I want to understand **why it work
 
 > “Science cannot solve the ultimate mystery of nature.” — Max Planck
 
-## 🔭 Research Transmission
+## 🔭 Research Spectrum
 
 <div align="center">
 
-```text
-OBSERVE  →  REPRESENT  →  PREDICT  →  EXPERIMENT  →  DISCOVER
-```
+<img src="./assets/research-spectrum.svg" width="100%" alt="Observe, represent, predict, and experiment — the AI for Science research loop" />
 
 </div>
-
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-
-### 01 · Observe
-
-Find the question hidden inside the noise.
-
-</td>
-<td width="33%" align="center" valign="top">
-
-### 02 · Model
-
-Turn structure into something testable.
-
-</td>
-<td width="34%" align="center" valign="top">
-
-### 03 · Discover
-
-Let evidence decide what survives.
-
-</td>
-</tr>
-</table>
 
 ## 🪐 Personal Universe
 
