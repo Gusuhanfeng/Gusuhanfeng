@@ -67,6 +67,20 @@ Honor of Kings sharpens my sense of timing and teamwork; Clash of Clans feeds my
 - 🗡️ Inspired by the patient, persistent cultivation journey in *A Record of a Mortal's Journey to Immortality*
 - 🛠️ Building one thoughtful experiment at a time
 
+## Knowledge Snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gusuhanfeng/Gusuhanfeng/output/knowledge-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gusuhanfeng/Gusuhanfeng/output/knowledge-snake.svg" />
+  <img alt="An animated snake eating a fixed AI Science grid" src="https://raw.githubusercontent.com/Gusuhanfeng/Gusuhanfeng/output/knowledge-snake.svg" />
+</picture>
+
+<sub>A fixed AI SCIENCE grid — playful, not a contribution counter.</sub>
+
+</div>
+
 <div align="center">
 
 ### `STAY CURIOUS · THINK IN QUANTA · PLAY THE LONG GAME`
