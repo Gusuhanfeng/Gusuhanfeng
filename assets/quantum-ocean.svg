@@ -1,66 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
-  <title id="title">Gusuhanfeng's Quantum Ocean Lab</title>
-  <desc id="desc">An original quantum ocean illustration with playful geometric and pixel-game motifs.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-labelledby="title desc">
+  <title id="title">Gusuhanfeng — Quantum Ocean Lab</title>
+  <desc id="desc">A neon quantum-ocean command deck with playful geometric, physics, and strategy-game motifs.</desc>
   <defs>
-    <linearGradient id="ocean" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#071A2B"/>
-      <stop offset="0.55" stop-color="#123A5A"/>
-      <stop offset="1" stop-color="#176B87"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#020617"/><stop offset=".48" stop-color="#071C33"/><stop offset="1" stop-color="#062A3C"/>
     </linearGradient>
-    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#FFE66D"/>
-      <stop offset="0.5" stop-color="#7DE2D1"/>
-      <stop offset="1" stop-color="#CBA6F7"/>
+    <radialGradient id="portal">
+      <stop stop-color="#42F5D1" stop-opacity=".28"/><stop offset=".5" stop-color="#2589FF" stop-opacity=".10"/><stop offset="1" stop-color="#020617" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FFE45E"/><stop offset=".32" stop-color="#2EF2D0"/><stop offset=".68" stop-color="#55A7FF"/><stop offset="1" stop-color="#FF75C8"/>
     </linearGradient>
-    <filter id="soft"><feGaussianBlur stdDeviation="14"/></filter>
-    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
-      <path d="M32 0H0V32" fill="none" stroke="#BDE7F0" stroke-opacity=".08"/>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#D9FAFF" stop-opacity=".12"/><stop offset="1" stop-color="#D9FAFF" stop-opacity=".025"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#6BEEDC" stroke-opacity=".07"/>
     </pattern>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#BFFAFF" opacity=".16"/>
+    </pattern>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="frame"><rect width="1200" height="460" rx="30"/></clipPath>
   </defs>
 
-  <rect width="1200" height="420" rx="28" fill="url(#ocean)"/>
-  <rect width="1200" height="420" rx="28" fill="url(#grid)"/>
-  <circle cx="930" cy="130" r="115" fill="#5BE7C4" opacity=".08" filter="url(#soft)"/>
-  <circle cx="180" cy="300" r="90" fill="#FF8DC7" opacity=".08" filter="url(#soft)"/>
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="460" fill="url(#bg)"/>
+    <rect width="1200" height="460" fill="url(#dots)"/>
+    <path d="M0 330 1200 205V460H0Z" fill="url(#grid)" opacity=".75"/>
+    <ellipse cx="600" cy="280" rx="410" ry="270" fill="url(#portal)"/>
+    <circle cx="1040" cy="90" r="105" fill="#9B5CFF" opacity=".08" filter="url(#blur)"/>
+    <circle cx="120" cy="340" r="130" fill="#FF4DB8" opacity=".07" filter="url(#blur)"/>
 
-  <!-- quantum wave -->
-  <path d="M34 310 C115 220 170 390 250 300 S390 215 470 304 S610 392 690 298 S830 212 910 302 S1050 390 1166 276" fill="none" stroke="url(#glow)" stroke-width="5" stroke-linecap="round" opacity=".9"/>
-  <path d="M34 326 C115 236 170 406 250 316 S390 231 470 320 S610 408 690 314 S830 228 910 318 S1050 406 1166 292" fill="none" stroke="#D9F8FF" stroke-width="1.5" stroke-dasharray="6 10" opacity=".4"/>
+    <!-- HUD corners -->
+    <g fill="none" stroke="#70F7E1" stroke-width="2" opacity=".55">
+      <path d="M28 92V28h64M1108 28h64v64M28 368v64h64M1108 432h64v-64"/>
+    </g>
+    <g fill="#70F7E1" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" letter-spacing="2" opacity=".72">
+      <text x="42" y="55">LAB / 01</text><text x="1158" y="55" text-anchor="end">ONLINE</text>
+      <text x="42" y="416">HIT · SHENZHEN</text><text x="1158" y="416" text-anchor="end">AI × SCIENCE</text>
+    </g>
 
-  <!-- playful ocean pair, geometric rather than copied characters -->
-  <g transform="translate(82 76)">
-    <rect x="0" y="0" width="105" height="105" rx="24" fill="#FFE66D"/>
-    <circle cx="24" cy="28" r="8" fill="#FFF4B8"/><circle cx="78" cy="64" r="11" fill="#E7C952"/><circle cx="34" cy="78" r="6" fill="#E7C952"/>
-    <path d="M142 94 159 58 198 65 169 39 188 5 154 23 128 0 134 37 100 56 139 60Z" fill="#FF8FB3" stroke="#FFD1DF" stroke-width="4" stroke-linejoin="round"/>
-    <circle cx="72" cy="125" r="5" fill="#BDE7F0" opacity=".75"/><circle cx="116" cy="148" r="10" fill="none" stroke="#BDE7F0" stroke-width="3" opacity=".55"/>
+    <!-- playful ocean duo: original geometric references -->
+    <g transform="translate(62 108)" filter="url(#glow)">
+      <rect x="10" y="12" width="112" height="112" rx="27" fill="#FFE45E" stroke="#FFF4A8" stroke-width="3"/>
+      <g fill="#D5B93D" opacity=".75"><circle cx="36" cy="39" r="8"/><circle cx="91" cy="68" r="13"/><circle cx="43" cy="95" r="6"/></g>
+      <path d="m157 118 14-38-29-27 40 1 17-37 12 39 40 5-33 23 8 40-32-24Z" fill="#FF76B5" stroke="#FFC2DE" stroke-width="3" stroke-linejoin="round"/>
+      <circle cx="75" cy="151" r="5" fill="#8FF8EA"/><circle cx="136" cy="166" r="11" fill="none" stroke="#8FF8EA" stroke-width="3"/>
+    </g>
+
+    <!-- central glass command panel -->
+    <rect x="294" y="58" width="612" height="282" rx="24" fill="url(#glass)" stroke="#B9FFF5" stroke-opacity=".2"/>
+    <path d="M318 84h34m-34 0v34M882 84h-34m34 0v34M318 314h34m-34 0v-34M882 314h-34m34 0v-34" fill="none" stroke="#70F7E1" stroke-width="2" opacity=".75"/>
+
+    <text x="600" y="112" text-anchor="middle" fill="#8AFBEA" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" letter-spacing="6">QUANTUM OCEAN LAB</text>
+    <text x="600" y="182" text-anchor="middle" fill="#F5FDFF" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="57" font-weight="800" letter-spacing="1">GUSUHANFENG</text>
+    <rect x="405" y="204" width="390" height="1" fill="url(#neon)" filter="url(#glow)"/>
+    <text x="600" y="244" text-anchor="middle" fill="#C7EAF2" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="18" letter-spacing="1">AI FOR SCIENCE · CURIOUS BY DEFAULT</text>
+
+    <g transform="translate(452 269)">
+      <rect width="296" height="46" rx="23" fill="#020817" stroke="url(#neon)"/>
+      <text x="148" y="30" text-anchor="middle" fill="#FFE45E" font-family="Georgia, serif" font-size="22" font-style="italic">E = hν  ·  PLAYER 01</text>
+    </g>
+
+    <!-- quantum orbit -->
+    <g transform="translate(965 95)" fill="none" stroke="#A6FFF1" filter="url(#glow)">
+      <ellipse cx="72" cy="72" rx="78" ry="27" stroke-width="1.7"/>
+      <ellipse cx="72" cy="72" rx="78" ry="27" stroke-width="1.7" transform="rotate(60 72 72)"/>
+      <ellipse cx="72" cy="72" rx="78" ry="27" stroke-width="1.7" transform="rotate(120 72 72)"/>
+      <circle cx="72" cy="72" r="9" fill="#FFE45E" stroke="none"/>
+      <circle cx="147" cy="72" r="5" fill="#FF75C8" stroke="none"/>
+      <circle cx="34" cy="9" r="4" fill="#55A7FF" stroke="none"/>
+    </g>
+
+    <!-- strategy-game skyline -->
+    <g transform="translate(948 278)" shape-rendering="crispEdges">
+      <path d="M0 48h15V31h15V14h16v17h15v17h16v54H0Z" fill="#8D6BFF" stroke="#C9B9FF" stroke-width="2"/>
+      <rect x="25" y="72" width="27" height="30" fill="#071528"/>
+      <path d="m107 0 12 12-23 23 9 9-12 12-9-9-14 14-8-8 14-14-9-9 12-12 9 9Z" fill="#FFE45E" filter="url(#glow)"/>
+      <rect x="136" y="72" width="22" height="22" fill="#2EF2D0"/><rect x="164" y="44" width="22" height="22" fill="#FF75C8"/><rect x="192" y="72" width="22" height="22" fill="#55A7FF"/>
+    </g>
+
+    <!-- luminous probability waves -->
+    <path d="M28 366c66-100 126 73 194-12s128-88 196-1 128 87 196-2 128-87 196 0 128 83 196-2 106-53 166 5" fill="none" stroke="url(#neon)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
+    <path d="M28 381c66-100 126 73 194-12s128-88 196-1 128 87 196-2 128-87 196 0 128 83 196-2 106-53 166 5" fill="none" stroke="#D7FFFF" stroke-width="1" stroke-dasharray="5 10" opacity=".55"/>
   </g>
-
-  <!-- title -->
-  <text x="600" y="92" text-anchor="middle" fill="#F4FBFF" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" letter-spacing="5">QUANTUM OCEAN LAB</text>
-  <text x="600" y="157" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="48" font-weight="750">Gusuhanfeng</text>
-  <text x="600" y="198" text-anchor="middle" fill="#BDE7F0" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="21">HIT (Shenzhen) · AI for Science · Curious by default</text>
-  <rect x="478" y="224" width="244" height="48" rx="24" fill="#071A2B" stroke="#7DE2D1" stroke-opacity=".7"/>
-  <text x="600" y="255" text-anchor="middle" fill="#FFE66D" font-family="Georgia, serif" font-size="25" font-style="italic">E = hν</text>
-
-  <!-- abstract atom / Planck motif -->
-  <g transform="translate(975 92)" fill="none" stroke="#D9F8FF" opacity=".85">
-    <ellipse cx="70" cy="68" rx="70" ry="24" stroke-width="2"/>
-    <ellipse cx="70" cy="68" rx="70" ry="24" stroke-width="2" transform="rotate(60 70 68)"/>
-    <ellipse cx="70" cy="68" rx="70" ry="24" stroke-width="2" transform="rotate(120 70 68)"/>
-    <circle cx="70" cy="68" r="9" fill="#FFE66D" stroke="none"/>
-    <circle cx="138" cy="68" r="5" fill="#FF8FB3" stroke="none"/>
-  </g>
-
-  <!-- pixel strategy motifs -->
-  <g transform="translate(930 292)" shape-rendering="crispEdges">
-    <path d="M0 54h18V36h18V18h18V36h18V54h18v36H0Z" fill="#CBA6F7" opacity=".88"/>
-    <rect x="32" y="58" width="26" height="32" fill="#071A2B"/>
-    <path d="m116 4 12 12-25 25 9 9-12 12-9-9-12 12-8-8 12-12-9-9 12-12 9 9Z" fill="#FFE66D"/>
-    <rect x="146" y="58" width="28" height="28" fill="#7DE2D1"/>
-    <rect x="178" y="26" width="28" height="28" fill="#FF8FB3"/>
-    <rect x="210" y="58" width="28" height="28" fill="#FFE66D"/>
-  </g>
-
-  <text x="52" y="390" fill="#BDE7F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" opacity=".75">observe → model → experiment → learn → repeat</text>
-  <text x="1148" y="390" text-anchor="end" fill="#BDE7F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" opacity=".75">PLAYER 01</text>
+  <rect x="1" y="1" width="1198" height="458" rx="29" fill="none" stroke="#70F7E1" stroke-opacity=".3" stroke-width="2"/>
 </svg>
