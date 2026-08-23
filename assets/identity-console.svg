@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="118" viewBox="0 0 900 118" role="img" aria-labelledby="title desc">
+  <title id="title">Gusuhanfeng identity console</title>
+  <desc id="desc">An animated terminal cycling through AI for Science, experimentation, and curiosity messages.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#07111f"/><stop offset="1" stop-color="#0b2b3c"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#FFE45E"/><stop offset=".45" stop-color="#2EF2D0"/><stop offset="1" stop-color="#7C83FF"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="c1"><rect class="reveal r1" x="218" y="48" height="36"/></clipPath>
+    <clipPath id="c2"><rect class="reveal r2" x="218" y="48" height="36"/></clipPath>
+    <clipPath id="c3"><rect class="reveal r3" x="218" y="48" height="36"/></clipPath>
+    <style>
+      .phrase{font:600 21px ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;fill:#E9FDFF}.p1{animation:p1 12s infinite}.p2{animation:p2 12s infinite}.p3{animation:p3 12s infinite}.r1{animation:r1 12s steps(28,end) infinite}.r2{animation:r2 12s steps(34,end) infinite}.r3{animation:r3 12s steps(29,end) infinite}.cursor{animation:blink .8s steps(1,end) infinite}
+      @keyframes p1{0%,31%{opacity:1}32%,100%{opacity:0}}@keyframes p2{0%,32%{opacity:0}33%,64%{opacity:1}65%,100%{opacity:0}}@keyframes p3{0%,64%{opacity:0}65%,98%{opacity:1}99%,100%{opacity:0}}
+      @keyframes r1{0%{width:0}12%,28%{width:500px}31%,100%{width:0}}@keyframes r2{0%,33%{width:0}46%,61%{width:610px}64%,100%{width:0}}@keyframes r3{0%,65%{width:0}78%,95%{width:560px}98%,100%{width:0}}@keyframes blink{50%{opacity:0}}
+      @media(prefers-reduced-motion:reduce){.p1,.r1{animation:none}.p2,.p3,.r2,.r3,.cursor{display:none}.r1{width:500px}}
+    </style>
+  </defs>
+  <rect x="1" y="1" width="898" height="116" rx="16" fill="url(#bg)" stroke="#2EF2D0" stroke-opacity=".42" stroke-width="2"/>
+  <circle cx="25" cy="23" r="5" fill="#FF75C8"/><circle cx="43" cy="23" r="5" fill="#FFE45E"/><circle cx="61" cy="23" r="5" fill="#2EF2D0"/>
+  <text x="82" y="28" fill="#78A7B4" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2">IDENTITY CONSOLE / ONLINE</text>
+  <path d="M18 40H882" stroke="#B9FFF5" stroke-opacity=".13"/>
+  <text x="25" y="78" fill="#2EF2D0" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="19" filter="url(#glow)">~/quantum-lab $</text>
+  <g class="p1" clip-path="url(#c1)"><text class="phrase" x="218" y="78">launch --mission "AI for Science"</text></g>
+  <g class="p2" clip-path="url(#c2)"><text class="phrase" x="218" y="78">observe → model → experiment → discover</text></g>
+  <g class="p3" clip-path="url(#c3)"><text class="phrase" x="218" y="78">status: cultivating curiosity...</text></g>
+  <rect class="cursor" x="830" y="57" width="10" height="23" rx="2" fill="url(#line)" filter="url(#glow)"/>
+  <text x="25" y="105" fill="#6F9EAA" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="1.4">HIT · SHENZHEN</text>
+  <text x="875" y="105" text-anchor="end" fill="#6F9EAA" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="10" letter-spacing="1.4">CURIOUS BY DEFAULT</text>
+</svg>

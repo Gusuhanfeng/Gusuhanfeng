@@ -2,9 +2,15 @@
 
 <img src="./assets/quantum-ocean-v2.svg" width="100%" alt="Gusuhanfeng — Quantum Ocean Lab" />
 
+<br />
+
+<img src="./assets/identity-console.svg" width="90%" alt="Animated identity console" />
+
 ### Hey, I'm Gusuhanfeng 👋
 
 **AI for Science @ Harbin Institute of Technology, Shenzhen**
+
+`⚛ quantum curious` · `🔬 experiment driven` · `🎮 strategy minded` · `🌊 playful by nature`
 
 *Turning curiosity into questions, questions into experiments, and experiments into discovery.*
 
@@ -12,17 +18,72 @@
 
 ---
 
-## Research Coordinates
+## 👨‍🚀 About This Player
+
+<table>
+<tr>
+<td width="58%" valign="top">
+
+### Research Identity
 
 I explore **AI for Science** — how intelligent systems can reveal hidden patterns, generate testable hypotheses, and accelerate scientific discovery.
+
+I care about more than whether a model works. I want to understand **why it works, where it fails, and how we can test it**.
+
+</td>
+<td width="42%" valign="top">
+
+### Coordinates
+
+- 🎓 **HIT (Shenzhen)**
+- 🤖 **AI for Science**
+- ⚛️ Quantum mechanics
+- 🧪 Scientific discovery
+- 🛠️ One experiment at a time
+
+</td>
+</tr>
+</table>
+
+> “Science cannot solve the ultimate mystery of nature.” — Max Planck
+
+## 🔭 Research Transmission
+
+<div align="center">
 
 ```text
 OBSERVE  →  REPRESENT  →  PREDICT  →  EXPERIMENT  →  DISCOVER
 ```
 
-> “Science cannot solve the ultimate mystery of nature.” — Max Planck
+</div>
 
-## Player Profile
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 01 · Observe
+
+Find the question hidden inside the noise.
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 02 · Model
+
+Turn structure into something testable.
+
+</td>
+<td width="34%" align="center" valign="top">
+
+### 03 · Discover
+
+Let evidence decide what survives.
+
+</td>
+</tr>
+</table>
+
+## 🪐 Personal Universe
 
 <table>
 <tr>
@@ -30,44 +91,36 @@ OBSERVE  →  REPRESENT  →  PREDICT  →  EXPERIMENT  →  DISCOVER
 
 ### 🟨 Curiosity Mode
 
-I bring SpongeBob-level enthusiasm to unfamiliar ideas: start with the simplest question, stay relentlessly curious, and enjoy the process.
+SpongeBob-level enthusiasm for unfamiliar ideas: begin with the simplest question and enjoy figuring things out.
 
 </td>
 <td width="50%" valign="top">
 
 ### 🩷 Imagination Mode
 
-Patrick reminds me that unusual thoughts can lead somewhere interesting. Not every wild idea is useful — but every useful idea was once unproven.
+Patrick-level freedom to ask unusual questions — because useful ideas often begin before they look reasonable.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### ⚛️ First-Principles Mode
+### 🗡️ Cultivation Mode
 
-Inspired by Planck, I care about more than whether something works. I want to know **why**, where its limits are, and how we can test it.
+Inspired by *A Record of a Mortal's Journey to Immortality*: stay patient, build foundations, and keep moving through uncertainty.
 
 </td>
 <td width="50%" valign="top">
 
 ### 🎮 Strategy Mode
 
-Honor of Kings sharpens my sense of timing and teamwork; Clash of Clans feeds my love of long-term building, resource planning, and iteration.
+Honor of Kings brings timing and teamwork; Clash of Clans brings long-term building, resource planning, and iteration.
 
 </td>
 </tr>
 </table>
 
-## Current Quest
-
-- 🎓 Studying and researching at **HIT (Shenzhen)**
-- 🤖 Exploring **AI for Science**
-- 🌌 Curious about quantum mechanics, scientific discovery, and playful AI
-- 🗡️ Inspired by the patient, persistent cultivation journey in *A Record of a Mortal's Journey to Immortality*
-- 🛠️ Building one thoughtful experiment at a time
-
-## Knowledge Snake
+## 🐍 Knowledge Snake
 
 <div align="center">
 
@@ -81,10 +134,12 @@ Honor of Kings sharpens my sense of timing and teamwork; Clash of Clans feeds my
 
 </div>
 
+---
+
 <div align="center">
 
 ### `STAY CURIOUS · THINK IN QUANTA · PLAY THE LONG GAME`
 
-<sub>No trophy cabinet yet — just a quantum ocean lab under construction.</sub>
+<sub>Quantum ocean lab under construction. New experiments will appear when they are ready.</sub>
 
 </div>
