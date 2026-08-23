@@ -64,6 +64,7 @@ Honor of Kings sharpens my sense of timing and teamwork; Clash of Clans feeds my
 - 🎓 Studying and researching at **HIT (Shenzhen)**
 - 🤖 Exploring **AI for Science**
 - 🌌 Curious about quantum mechanics, scientific discovery, and playful AI
+- 🗡️ Inspired by the patient, persistent cultivation journey in *A Record of a Mortal's Journey to Immortality*
 - 🛠️ Building one thoughtful experiment at a time
 
 <div align="center">

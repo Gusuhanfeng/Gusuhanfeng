@@ -25,6 +25,16 @@
       <feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
     <clipPath id="frame"><rect width="1200" height="460" rx="30"/></clipPath>
+    <style>
+      .chase{animation:chase 4.8s ease-in-out infinite}.bob{animation:bob 1.8s ease-in-out infinite}.jelly{animation:jelly 2.2s ease-in-out infinite}.sword{animation:sword 5s ease-in-out infinite}.bottle{animation:bottle 3s ease-in-out infinite}.dash{animation:dash 7s linear infinite}
+      @keyframes chase{0%,100%{transform:translate(-8px,4px)}50%{transform:translate(13px,-5px)}}
+      @keyframes bob{0%,100%{transform:translateY(3px) rotate(-2deg)}50%{transform:translateY(-7px) rotate(2deg)}}
+      @keyframes jelly{0%,100%{transform:translateY(-7px) scale(1)}50%{transform:translateY(8px) scale(.94,1.06)}}
+      @keyframes sword{0%,100%{transform:translate(-12px,8px) rotate(-5deg)}50%{transform:translate(16px,-10px) rotate(3deg)}}
+      @keyframes bottle{0%,100%{transform:translateY(4px)}50%{transform:translateY(-8px)}}
+      @keyframes dash{to{stroke-dashoffset:-160}}
+      @media (prefers-reduced-motion:reduce){.chase,.bob,.jelly,.sword,.bottle,.dash{animation:none}}
+    </style>
   </defs>
 
   <g clip-path="url(#frame)">
@@ -44,12 +54,31 @@
       <text x="42" y="416">HIT · SHENZHEN</text><text x="1158" y="416" text-anchor="end">AI × SCIENCE</text>
     </g>
 
-    <!-- playful ocean duo: original geometric references -->
-    <g transform="translate(62 108)" filter="url(#glow)">
-      <rect x="10" y="12" width="112" height="112" rx="27" fill="#FFE45E" stroke="#FFF4A8" stroke-width="3"/>
-      <g fill="#D5B93D" opacity=".75"><circle cx="36" cy="39" r="8"/><circle cx="91" cy="68" r="13"/><circle cx="43" cy="95" r="6"/></g>
-      <path d="m157 118 14-38-29-27 40 1 17-37 12 39 40 5-33 23 8 40-32-24Z" fill="#FF76B5" stroke="#FFC2DE" stroke-width="3" stroke-linejoin="round"/>
-      <circle cx="75" cy="151" r="5" fill="#8FF8EA"/><circle cx="136" cy="166" r="11" fill="none" stroke="#8FF8EA" stroke-width="3"/>
+    <!-- hand-drawn fan-art chase: sponge, starfish, and jellyfish -->
+    <g transform="translate(42 111)" filter="url(#glow)">
+      <g class="chase">
+      <g class="bob">
+        <path d="M18 26Q24 13 39 18q15-9 29 0 17-7 28 7l-3 99q-14 9-27 1-13 8-27 0-14 6-25-4Z" fill="#FFE45E" stroke="#FFF4A8" stroke-width="3"/>
+        <g fill="#D5B93D" opacity=".8"><circle cx="31" cy="39" r="6"/><circle cx="79" cy="91" r="9"/><circle cx="37" cy="106" r="5"/></g>
+        <ellipse cx="45" cy="56" rx="12" ry="15" fill="#FFF"/><ellipse cx="69" cy="56" rx="12" ry="15" fill="#FFF"/>
+        <circle cx="49" cy="58" r="5" fill="#2589FF"/><circle cx="65" cy="58" r="5" fill="#2589FF"/>
+        <path d="M45 82q14 13 29 0" fill="none" stroke="#402515" stroke-width="3" stroke-linecap="round"/>
+        <path d="M15 124h80v25H15Z" fill="#8B5A34"/><path d="M15 124h80v9H15Z" fill="#FFF"/>
+        <path d="M28 149v16m51-16v16M15 68-1 25m82-25 10 20" stroke="#FFE45E" stroke-width="7" stroke-linecap="round"/>
+      </g>
+      <g transform="translate(105 37)"><g class="bob" style="animation-delay:-.7s">
+        <path d="m39 4 15 39 40-11-31 28 25 33-38-20-23 35 7-41-42-5 40-15Z" fill="#FF76B5" stroke="#FFC2DE" stroke-width="3" stroke-linejoin="round"/>
+        <circle cx="40" cy="42" r="4" fill="#2B1630"/><circle cx="55" cy="39" r="4" fill="#2B1630"/>
+        <path d="M38 54q10 7 20-2" fill="none" stroke="#7C2E57" stroke-width="3" stroke-linecap="round"/>
+        <path d="m24 77 29-4 20 17-19 15-29-3Z" fill="#98D84B"/><path d="m38 79 5 11 7-13 7 12" fill="none" stroke="#8D5CD6" stroke-width="4"/>
+      </g></g>
+      <g transform="translate(211 19)"><g class="jelly">
+        <path d="M2 44C2 16 17 3 37 3s35 13 35 41Z" fill="#85F8F0" fill-opacity=".72" stroke="#C8FFFB" stroke-width="3"/>
+        <path d="M11 44q7 17 14 0 7 19 14 0 7 18 14 0 7 17 13 0" fill="none" stroke="#FF8DD3" stroke-width="4" stroke-linecap="round"/>
+        <path d="M18 50q-9 24 2 36m21-36q10 22-2 39m21-39q-7 18 1 30" fill="none" stroke="#85F8F0" stroke-width="3" stroke-linecap="round"/>
+      </g></g>
+      <g fill="#8FF8EA"><circle cx="192" cy="28" r="4"><animate attributeName="cy" values="34;5;34" dur="2.5s" repeatCount="indefinite"/></circle><circle cx="181" cy="54" r="2.5"><animate attributeName="cy" values="58;24;58" dur="2s" repeatCount="indefinite"/></circle></g>
+      </g>
     </g>
 
     <!-- central glass command panel -->
@@ -63,8 +92,24 @@
 
     <g transform="translate(452 269)">
       <rect width="296" height="46" rx="23" fill="#020817" stroke="url(#neon)"/>
-      <text x="148" y="30" text-anchor="middle" fill="#FFE45E" font-family="Georgia, serif" font-size="22" font-style="italic">E = hν  ·  PLAYER 01</text>
+      <text x="148" y="30" text-anchor="middle" fill="#FFE45E" font-family="Georgia, serif" font-size="20" font-style="italic">E = hν · CULTIVATE CURIOSITY</text>
     </g>
+
+    <!-- cultivation motifs: original redraw of a flying sword, spirit bottle, and immortal mountains -->
+    <g opacity=".38" fill="#5ACCC0">
+      <path d="M914 254q47-65 91 0 39-89 87 0 28-49 70 0v29H914Z"/>
+      <path d="M931 254q28-37 55 0m34 0q25-52 52 0" fill="none" stroke="#C8FFFB" stroke-width="2"/>
+    </g>
+    <g transform="translate(927 233)" filter="url(#glow)"><g class="sword">
+      <path d="m0 27 100-20-83 47 15-18Z" fill="#C9F7FF" stroke="#70F7E1" stroke-width="2"/>
+      <path d="m20 32-15 16m5-24 17 17" stroke="#FFE45E" stroke-width="5"/>
+    </g></g>
+    <g transform="translate(1110 180)" filter="url(#glow)"><g class="bottle">
+      <path d="M20 0h23l-2 17q17 13 17 38 0 30-27 30T4 55q0-25 18-38Z" fill="#37D78A" fill-opacity=".68" stroke="#A8FFD2" stroke-width="2"/>
+      <path d="M15 52q16-12 34 0" fill="none" stroke="#E1FF87" stroke-width="3"/>
+      <circle cx="31" cy="51" r="7" fill="#E1FF87" opacity=".75"/>
+    </g></g>
+    <text x="1148" y="290" text-anchor="end" fill="#A8FFD2" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" letter-spacing="2" opacity=".8">MORTAL PATH // ASCEND</text>
 
     <!-- quantum orbit -->
     <g transform="translate(965 95)" fill="none" stroke="#A6FFF1" filter="url(#glow)">
@@ -86,7 +131,7 @@
 
     <!-- luminous probability waves -->
     <path d="M28 366c66-100 126 73 194-12s128-88 196-1 128 87 196-2 128-87 196 0 128 83 196-2 106-53 166 5" fill="none" stroke="url(#neon)" stroke-width="4" stroke-linecap="round" filter="url(#glow)"/>
-    <path d="M28 381c66-100 126 73 194-12s128-88 196-1 128 87 196-2 128-87 196 0 128 83 196-2 106-53 166 5" fill="none" stroke="#D7FFFF" stroke-width="1" stroke-dasharray="5 10" opacity=".55"/>
+    <path class="dash" d="M28 381c66-100 126 73 194-12s128-88 196-1 128 87 196-2 128-87 196 0 128 83 196-2 106-53 166 5" fill="none" stroke="#D7FFFF" stroke-width="1" stroke-dasharray="5 10" opacity=".55"/>
   </g>
   <rect x="1" y="1" width="1198" height="458" rx="29" fill="none" stroke="#70F7E1" stroke-opacity=".3" stroke-width="2"/>
 </svg>
