@@ -37,6 +37,10 @@ I care about more than whether a model works. I want to understand **why it work
 - 🧪 Scientific discovery
 - 🛠️ One experiment at a time
 
+<div align="center">
+<img src="./assets/farmer-helper.svg" width="150" alt="An animated pixel scientist-farmer watering a research crop" />
+</div>
+
 </td>
 </tr>
 </table>
@@ -79,12 +83,20 @@ The valley is still a laboratory. I like asking why something works, where its l
 
 The flying cultivator represents what I enjoy in *A Record of a Mortal's Journey to Immortality*: foundations, patience, and steady progress.
 
+<div align="center">
+<img src="./assets/cultivator-helper.svg" width="150" alt="An animated pixel cultivator flying on a sword" />
+</div>
+
 </td>
 <td width="50%" valign="top">
 
 ### 🏰 Strategy builder
 
 The barn and tiny tower carry my love for Honor of Kings and Clash of Clans: teamwork, timing, resource planning, and long-term building.
+
+<div align="center">
+<img src="./assets/builder-helper.svg" width="150" alt="An animated pixel builder constructing a strategy tower" />
+</div>
 
 </td>
 </tr>
