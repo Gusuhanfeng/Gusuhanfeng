@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="./assets/pixel-valley.svg" width="100%" alt="Gusuhanfeng's sunny Pixel Valley" />
+<img src="./assets/pixel-valley.png" width="100%" alt="Gusuhanfeng's detailed pixel-art research farm" />
 
-### Welcome to my Pixel Valley 🌻
+### 🌻 Welcome to Gusuhanfeng's Research Farm 🌻
 
 **AI for Science @ Harbin Institute of Technology, Shenzhen**
 
@@ -43,11 +43,13 @@ I care about more than whether a model works. I want to understand **why it work
 
 > “Science cannot solve the ultimate mystery of nature.” — Max Planck
 
-## 🗺️ Research Farm
+## 📌 Research Quest Board
 
 <div align="center">
 
-<img src="./assets/pixel-research-map.svg" width="100%" alt="A pixel research map from observation to experiment" />
+<img src="./assets/research-board.png" width="100%" alt="A detailed pixel-art quest board showing the AI for Science research loop" />
+
+`OBSERVE  →  REPRESENT  →  PREDICT  →  EXPERIMENT  →  DISCOVER`
 
 </div>
 
