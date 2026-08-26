@@ -26,6 +26,10 @@ I explore **AI for Science** — how intelligent systems can reveal hidden patte
 
 I care about more than whether a model works. I want to understand **why it works, where it fails, and how evidence can improve it**.
 
+<div align="center">
+<img src="./assets/observer-helper.svg" width="150" alt="An animated pixel researcher observing the sky" />
+</div>
+
 </td>
 <td width="42%" valign="top">
 
@@ -67,12 +71,20 @@ I care about more than whether a model works. I want to understand **why it work
 
 A yellow sponge and a pink starfish live beside the pond — reminders to stay enthusiastic, playful, and open to strange questions.
 
+<div align="center">
+<img src="./assets/curiosity-helper.svg" width="150" alt="Animated pixel sea friends chasing a jellyfish" />
+</div>
+
 </td>
 <td width="50%" valign="top">
 
 ### ⚛️ First principles
 
 The valley is still a laboratory. I like asking why something works, where its limits are, and whether it can survive a real test.
+
+<div align="center">
+<img src="./assets/principles-helper.svg" width="150" alt="An animated pixel physics scholar explaining an atom model" />
+</div>
 
 </td>
 </tr>
