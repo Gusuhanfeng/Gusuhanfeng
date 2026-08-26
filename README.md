@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/pixel-valley.png" width="100%" alt="Gusuhanfeng's detailed pixel-art research farm" />
+<img src="./assets/pixel-valley-live.svg" width="100%" alt="Gusuhanfeng's animated pixel-art research farm" />
 
 ### 🌻 Welcome to Gusuhanfeng's Research Farm 🌻
 
