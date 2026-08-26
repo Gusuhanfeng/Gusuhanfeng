@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="230" viewBox="0 0 900 230" role="img" aria-labelledby="title desc" shape-rendering="crispEdges">
+  <title id="title">Research Farm map</title>
+  <desc id="desc">A sunny pixel map connecting observation, representation, prediction, and experiment.</desc>
+  <defs>
+    <pattern id="paper" width="24" height="24" patternUnits="userSpaceOnUse"><rect width="24" height="24" fill="#FFF3C9"/><rect x="4" y="6" width="3" height="3" fill="#F2DFA7"/><rect x="18" y="17" width="2" height="2" fill="#EACF8F"/></pattern>
+    <style>.walk{animation:walk 5s steps(12,end) infinite}.bee{animation:bee 2.4s steps(3,end) infinite}@keyframes walk{to{stroke-dashoffset:-96}}@keyframes bee{50%{transform:translate(8px,-6px)}}@media(prefers-reduced-motion:reduce){.walk,.bee{animation:none}}</style>
+  </defs>
+  <rect width="900" height="230" rx="18" fill="#70BF58"/>
+  <rect x="10" y="10" width="880" height="210" fill="#9AD875"/>
+  <rect x="22" y="22" width="856" height="186" fill="url(#paper)" stroke="#8B5B38" stroke-width="6"/>
+  <text x="450" y="48" text-anchor="middle" fill="#73503A" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="900" letter-spacing="3">RESEARCH FARM · FROM SEED TO DISCOVERY</text>
+  <path d="M110 122H790" stroke="#C98B4D" stroke-width="18"/>
+  <path class="walk" d="M110 122H790" stroke="#FFE6A4" stroke-width="4" stroke-dasharray="8 8"/>
+
+  <!-- observe -->
+  <g transform="translate(112 117)"><rect x="-43" y="-43" width="86" height="86" fill="#F6C94C" stroke="#9C6B32" stroke-width="5"/><circle cx="-5" cy="-8" r="17" fill="#BEE9F0" stroke="#76523C" stroke-width="7"/><path d="m8 5 23 23" stroke="#76523C" stroke-width="9"/><rect x="-34" y="30" width="68" height="8" fill="#E6AA38"/></g>
+  <text x="112" y="181" text-anchor="middle" fill="#76523C" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="900">OBSERVE</text>
+
+  <!-- represent -->
+  <g transform="translate(338 117)"><rect x="-43" y="-43" width="86" height="86" fill="#78C9DF" stroke="#397F98" stroke-width="5"/><rect x="-27" y="-28" width="54" height="58" fill="#FFF8DD" stroke="#76523C" stroke-width="5"/><path d="M-16-14h32M-16 0h32M-16 14H8" stroke="#E98B76" stroke-width="5"/><rect x="-33" y="-21" width="8" height="8" fill="#F6C94C"/><rect x="-33" y="8" width="8" height="8" fill="#F6C94C"/></g>
+  <text x="338" y="181" text-anchor="middle" fill="#397F98" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="900">REPRESENT</text>
+
+  <!-- predict -->
+  <g transform="translate(564 117)"><rect x="-43" y="-43" width="86" height="86" fill="#B49AE8" stroke="#674D9D" stroke-width="5"/><circle cx="0" cy="-7" r="25" fill="#D8F4F4" stroke="#76523C" stroke-width="5"/><path d="m0-25 5 12 13 2-10 8 3 13-11-7-11 7 3-13-10-8 13-2Z" fill="#FFE066"/><rect x="-26" y="22" width="52" height="11" fill="#76523C"/></g>
+  <text x="564" y="181" text-anchor="middle" fill="#674D9D" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="900">PREDICT</text>
+
+  <!-- experiment -->
+  <g transform="translate(790 117)"><rect x="-43" y="-43" width="86" height="86" fill="#74CF83" stroke="#3B8955" stroke-width="5"/><path d="M-12-28h24v9H8V0l23 29h-62L-8 0v-19h-4Z" fill="#FFF8DD" stroke="#76523C" stroke-width="5"/><path d="M-23 18h46l8 11h-62Z" fill="#F28BA8"/><rect x="-5" y="5" width="8" height="8" fill="#FFE066"/></g>
+  <text x="790" y="181" text-anchor="middle" fill="#3B8955" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14" font-weight="900">EXPERIMENT</text>
+
+  <g class="bee" transform="translate(825 47)"><rect x="0" y="4" width="18" height="10" fill="#F6C94C"/><rect x="6" y="4" width="5" height="10" fill="#604332"/><rect x="1" y="0" width="6" height="5" fill="#DDF7F8"/><rect x="12" y="0" width="6" height="5" fill="#DDF7F8"/></g>
+  <g fill="#FFF2A6"><rect x="42" y="42" width="6" height="6"/><rect x="855" y="188" width="6" height="6"/></g>
+</svg>

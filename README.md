@@ -1,39 +1,35 @@
 <div align="center">
 
-<img src="./assets/quantum-ocean-v2.svg" width="100%" alt="Gusuhanfeng — Quantum Ocean Lab" />
+<img src="./assets/pixel-valley.svg" width="100%" alt="Gusuhanfeng's sunny Pixel Valley" />
 
-<br />
-
-<img src="./assets/identity-console-v2.svg" width="90%" alt="Animated identity console" />
-
-### Hey, I'm Gusuhanfeng 👋
+### Welcome to my Pixel Valley 🌻
 
 **AI for Science @ Harbin Institute of Technology, Shenzhen**
 
-`⚛ quantum curious` · `🔬 experiment driven` · `🎮 strategy minded` · `🌊 playful by nature`
+`🔬 grow questions` · `🧪 run experiments` · `🌱 harvest discoveries`
 
-*Turning curiosity into questions, questions into experiments, and experiments into discovery.*
+*Building knowledge the way a farm grows: patiently, season by season.*
 
 </div>
 
 ---
 
-## 👨‍🚀 About This Player
+## 🌾 Meet the Researcher
 
 <table>
 <tr>
 <td width="58%" valign="top">
 
-### Research Identity
+### My research plot
 
 I explore **AI for Science** — how intelligent systems can reveal hidden patterns, generate testable hypotheses, and accelerate scientific discovery.
 
-I care about more than whether a model works. I want to understand **why it works, where it fails, and how we can test it**.
+I care about more than whether a model works. I want to understand **why it works, where it fails, and how evidence can improve it**.
 
 </td>
 <td width="42%" valign="top">
 
-### Coordinates
+### Farm coordinates
 
 - 🎓 **HIT (Shenzhen)**
 - 🤖 **AI for Science**
@@ -47,52 +43,52 @@ I care about more than whether a model works. I want to understand **why it work
 
 > “Science cannot solve the ultimate mystery of nature.” — Max Planck
 
-## 🔭 Research Spectrum
+## 🗺️ Research Farm
 
 <div align="center">
 
-<img src="./assets/research-spectrum.svg" width="100%" alt="Observe, represent, predict, and experiment — the AI for Science research loop" />
+<img src="./assets/pixel-research-map.svg" width="100%" alt="A pixel research map from observation to experiment" />
 
 </div>
 
-## 🪐 Personal Universe
+## 🎒 Backpack
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🟨 Curiosity Mode
+### 🟨 Sunny curiosity
 
-SpongeBob-level enthusiasm for unfamiliar ideas: begin with the simplest question and enjoy figuring things out.
+A yellow sponge and a pink starfish live beside the pond — reminders to stay enthusiastic, playful, and open to strange questions.
 
 </td>
 <td width="50%" valign="top">
 
-### 🩷 Imagination Mode
+### ⚛️ First principles
 
-Patrick-level freedom to ask unusual questions — because useful ideas often begin before they look reasonable.
+The valley is still a laboratory. I like asking why something works, where its limits are, and whether it can survive a real test.
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🗡️ Cultivation Mode
+### 🗡️ Patient cultivation
 
-Inspired by *A Record of a Mortal's Journey to Immortality*: stay patient, build foundations, and keep moving through uncertainty.
+The flying cultivator represents what I enjoy in *A Record of a Mortal's Journey to Immortality*: foundations, patience, and steady progress.
 
 </td>
 <td width="50%" valign="top">
 
-### 🎮 Strategy Mode
+### 🏰 Strategy builder
 
-Honor of Kings brings timing and teamwork; Clash of Clans brings long-term building, resource planning, and iteration.
+The barn and tiny tower carry my love for Honor of Kings and Clash of Clans: teamwork, timing, resource planning, and long-term building.
 
 </td>
 </tr>
 </table>
 
-## 🐍 Knowledge Snake
+## 🐍 Greenhouse Mini-game
 
 <div align="center">
 
@@ -102,7 +98,7 @@ Honor of Kings brings timing and teamwork; Clash of Clans brings long-term build
   <img alt="An animated snake eating a fixed AI Science grid" src="https://raw.githubusercontent.com/Gusuhanfeng/Gusuhanfeng/output/knowledge-snake.svg" />
 </picture>
 
-<sub>A fixed AI SCIENCE grid — playful, not a contribution counter.</sub>
+<sub>A fixed AI SCIENCE crop field — playful, not a contribution counter.</sub>
 
 </div>
 
@@ -110,8 +106,8 @@ Honor of Kings brings timing and teamwork; Clash of Clans brings long-term build
 
 <div align="center">
 
-### `STAY CURIOUS · THINK IN QUANTA · PLAY THE LONG GAME`
+### `STAY CURIOUS · GROW PATIENTLY · PLAY THE LONG GAME`
 
-<sub>Quantum ocean lab under construction. New experiments will appear when they are ready.</sub>
+<sub>The farm is open. New experiments will sprout when they are ready.</sub>
 
 </div>
