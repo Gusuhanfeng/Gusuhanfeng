@@ -12,7 +12,9 @@
 
 </div>
 
----
+<div align="center">
+<img src="./assets/sword-divider.svg" width="100%" alt="" />
+</div>
 
 ## 🌾 Meet the Researcher
 
@@ -128,7 +130,9 @@ The barn and tiny tower carry my love for Honor of Kings and Clash of Clans: tea
 
 </div>
 
----
+<div align="center">
+<img src="./assets/sword-divider.svg" width="100%" alt="" />
+</div>
 
 <div align="center">
 
