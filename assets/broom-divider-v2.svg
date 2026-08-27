@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="90" viewBox="0 0 900 90" aria-hidden="true" focusable="false" shape-rendering="crispEdges">
+<style>.fly{animation:fly 8s linear infinite}.scarf{animation:scarf .7s steps(2,end) infinite}.robe{animation:robe .8s steps(2,end) infinite}.spark{animation:spark 1s steps(2,end) infinite}.dash{animation:dash 4s linear infinite}@keyframes fly{from{transform:translateX(-150px)}to{transform:translateX(930px)}}@keyframes scarf{50%{transform:translateY(4px)}}@keyframes robe{50%{transform:skewY(-5deg)}}@keyframes spark{50%{opacity:.18}}@keyframes dash{to{stroke-dashoffset:-70}}@media(prefers-reduced-motion:reduce){.fly,.scarf,.robe,.spark,.dash{animation:none}.fly{transform:translateX(390px)}}</style>
+<path d="M18 72H882" stroke="#86532F" stroke-width="5"/><path class="dash" d="M18 68H882" stroke="#E8B94E" stroke-width="2" stroke-dasharray="6 10"/>
+<g><g class="fly" stroke="#211B22" stroke-width="2" stroke-linejoin="bevel">
+  <!-- broom -->
+  <path d="M8 67 132 61" fill="none" stroke="#5B3826" stroke-width="5"/><path d="m10 59-28 4 25 5-28 7 33-2Z" fill="#C08A3E" stroke="#704429"/><path d="m-15 63-17-2m21 9-22 7" fill="none" stroke="#E0AD55" stroke-width="3"/>
+  <!-- trailing robe and scarf -->
+  <g class="robe"><path d="M49 35 37 57 17 58l16-12-21 2 25-24Z" fill="#252332"/><path d="M48 34 38 59 56 63 69 39Z" fill="#373447"/></g>
+  <g class="scarf" stroke="none"><path d="M49 29 32 24 13 29-6 22l21 1 16-8 22 7Z" fill="#8E273D"/><path d="m31 24-8-3 5-7 8 4Z" fill="#D7A63E"/><path d="m11 28-8-3 5-6 8 4Z" fill="#D7A63E"/></g>
+  <!-- body -->
+  <path d="M52 27h27l10 27-25 8-19-15Z" fill="#171821"/><path d="M57 29h12v27H57Z" fill="#5D273A" stroke="none"/><path d="M57 34h12v5H57Z" fill="#D6A63E" stroke="none"/>
+  <!-- legs and boots -->
+  <path d="m58 51-15 13 12 5 14-13Z" fill="#303647"/><path d="m72 52 17 10-8 7-18-10Z" fill="#303647"/><path d="m43 64 13 3-5 7-14-3Z" fill="#3A2B27"/><path d="m86 61 12 2-2 7-15-1Z" fill="#3A2B27"/>
+  <!-- head and hair -->
+  <path d="M55 8h20l9 9-3 17-14 8-15-8-3-16Z" fill="#E7B38B"/><path d="M49 18 53 6l10-4 16 5 8 10-8-3-3 8-4-9-7 6-7-6-6 10Z" fill="#27212A"/><path d="m75 6 8 7-1 11 6-8-4-10Z" fill="#1A171D"/>
+  <!-- glasses and scar -->
+  <circle cx="59" cy="23" r="5" fill="none" stroke="#57483F"/><circle cx="72" cy="23" r="5" fill="none" stroke="#57483F"/><path d="M64 23h3" stroke="#57483F"/><path d="m68 10-3 5 4-1-3 5" fill="none" stroke="#C49A3C" stroke-width="1.5"/>
+  <!-- arms on broom -->
+  <path d="m75 35 17 12 18 11" fill="none" stroke="#171821" stroke-width="8"/><path d="m91 47 19 11" fill="none" stroke="#E7B38B" stroke-width="5"/>
+  <g class="spark" fill="#FFE17A" stroke="none"><path d="M-39 43h5v5h5v5h-5v5h-5v-5h-5v-5h5Z"/><rect x="-52" y="63" width="5" height="5"/><rect x="-27" y="77" width="4" height="4"/></g>
+</g></g>
+</svg>
