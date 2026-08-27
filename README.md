@@ -120,13 +120,7 @@ The barn and tiny tower carry my love for Honor of Kings and Clash of Clans: tea
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Gusuhanfeng/Gusuhanfeng/output/knowledge-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Gusuhanfeng/Gusuhanfeng/output/knowledge-snake.svg" />
-  <img alt="An animated snake eating a fixed AI Science grid" src="https://raw.githubusercontent.com/Gusuhanfeng/Gusuhanfeng/output/knowledge-snake.svg" />
-</picture>
-
-<sub>A fixed AI SCIENCE crop field — playful, not a contribution counter.</sub>
+<img src="./assets/knowledge-snake-v2.svg" width="100%" alt="An animated snake that grows while eating the AI Science field and celebrates level completion" />
 
 </div>
 
