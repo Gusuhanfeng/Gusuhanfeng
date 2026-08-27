@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="82" viewBox="0 0 900 82" aria-hidden="true" focusable="false" shape-rendering="crispEdges">
+<style>.fly{animation:fly 8s linear infinite}.scarf{animation:scarf .7s steps(2,end) infinite}.spark{animation:spark 1s steps(2,end) infinite}.dash{animation:dash 4s linear infinite}@keyframes fly{from{transform:translateX(-125px)}to{transform:translateX(925px)}}@keyframes scarf{50%{transform:translateY(4px)}}@keyframes spark{50%{opacity:.18}}@keyframes dash{to{stroke-dashoffset:-70}}@media(prefers-reduced-motion:reduce){.fly,.scarf,.spark,.dash{animation:none}.fly{transform:translateX(400px)}}</style>
+<path d="M18 63H882" stroke="#8B5A34" stroke-width="4"/><path class="dash" d="M18 59H882" stroke="#E5B94F" stroke-width="2" stroke-dasharray="5 10"/>
+<g><g class="fly">
+  <!-- broom -->
+  <rect x="2" y="55" width="96" height="5" fill="#70452E"/><rect x="0" y="52" width="12" height="11" fill="#B57B35"/><rect x="-8" y="49" width="10" height="4" fill="#D6A64A"/><rect x="-12" y="57" width="14" height="4" fill="#D6A64A"/><rect x="-7" y="64" width="10" height="3" fill="#D6A64A"/>
+  <!-- wizard -->
+  <rect x="48" y="10" width="17" height="17" fill="#E7B088"/><rect x="45" y="6" width="22" height="9" fill="#25202A"/><rect x="43" y="10" width="7" height="11" fill="#25202A"/><rect x="61" y="8" width="8" height="8" fill="#25202A"/>
+  <rect x="47" y="16" width="7" height="6" fill="none" stroke="#4C423A" stroke-width="2"/><rect x="58" y="16" width="7" height="6" fill="none" stroke="#4C423A" stroke-width="2"/><rect x="54" y="18" width="4" height="2" fill="#4C423A"/><rect x="56" y="8" width="2" height="5" fill="#D8B84E"/>
+  <rect x="43" y="27" width="27" height="25" fill="#2C2935"/><rect x="48" y="27" width="8" height="23" fill="#5A2334"/><rect x="46" y="31" width="12" height="4" fill="#D2A63B"/>
+  <rect x="64" y="30" width="19" height="6" fill="#E7B088"/><rect x="78" y="27" width="8" height="7" fill="#2C2935"/><rect x="48" y="50" width="8" height="10" fill="#1F2636"/><rect x="64" y="49" width="9" height="9" fill="#1F2636"/>
+  <g class="scarf"><rect x="35" y="29" width="14" height="5" fill="#8D263A"/><rect x="23" y="25" width="14" height="5" fill="#C99C35"/><rect x="10" y="29" width="14" height="5" fill="#8D263A"/></g>
+  <g class="spark" fill="#FFE27A"><rect x="-24" y="40" width="5" height="5"/><rect x="-36" y="54" width="4" height="4"/><rect x="-18" y="68" width="3" height="3"/></g>
+</g></g>
+</svg>
