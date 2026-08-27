@@ -120,7 +120,7 @@ The barn and tiny tower carry my love for Honor of Kings and Clash of Clans: tea
 
 <div align="center">
 
-<img src="./assets/knowledge-snake-v2.svg" width="100%" alt="An animated snake that grows while eating the AI Science field and celebrates level completion" />
+<img src="./assets/knowledge-snake-v3.svg" width="100%" alt="An animated grid snake that turns naturally, grows whenever it eats a crop block, and celebrates level completion" />
 
 </div>
 
