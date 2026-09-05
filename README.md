@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/pixel-valley-live.svg" width="100%" alt="Gusuhanfeng's animated pixel-art research farm" />
+<img src="./assets/pixel-valley-v2.png" width="100%" alt="A quiet pixel-art research valley with a cabin, greenhouse, field, and stream" />
 
 ### 🌻 Welcome to Gusuhanfeng's Research Farm 🌻
 
@@ -57,9 +57,7 @@ I care about more than whether a model works. I want to understand **why it work
 
 <div align="center">
 
-<img src="./assets/research-board.png" width="100%" alt="A detailed pixel-art quest board showing the AI for Science research loop" />
-
-`OBSERVE  →  REPRESENT  →  PREDICT  →  EXPERIMENT  →  DISCOVER`
+<img src="./assets/research-board-v2.png" width="100%" alt="Observe, model, test, learn, and build" />
 
 </div>
 
